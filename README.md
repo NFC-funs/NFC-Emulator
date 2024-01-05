@@ -1,8 +1,7 @@
 # NFC-Emulator
-NFC Emulator For Mifare,Ntag,15693 With Jieli AD15n
+The NFC-Emulator is a versatile contactless smartcard emulator compliant to NFC -- include Mifare, Ntag, 15693.
+It can be used as USB Reader&Write for 14443A(Mifare,Ntag),14443B(The second generation of the People's Republic of China resident identity card),15693.
+and it can sniff data from 14443A/15693 reader.
+It's NOT Chameleon Ultra,NOT Chameleon mini,NOT Chameleon xxx.
 
-![Image](https://gitee.com/MCUer/AD15N-App/blob/master/05-RFID/NFC%20Emulator/M1%E6%A8%A1%E6%8B%9F%E5%99%A8_20231125_214200954.jpg)
-
-https://gitee.com/MCUer/AD15N-App/blob/master/05-RFID/NFC%20Emulator/M1%E8%AF%BB%E5%86%99%E5%8D%A1%E5%99%A8_20231125.jpg
-
-https://gitee.com/MCUer/AD15N-App/blob/master/05-RFID/NFC%20Emulator/M1%E6%A8%A1%E6%8B%9F%E5%99%A8_20231125_214200954.jpg
+For further information see the link: https://gitee.com/MCUer/AD15N-App/tree/master/05-RFID/NFC%20Emulator
