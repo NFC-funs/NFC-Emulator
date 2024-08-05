@@ -1,0 +1,61 @@
+Reader Log: 
+PN532Killer(Emulator--Mifare1, KeyA FFFFFFFFFFFF, without FDT)
+[Ps] [RF14443A]WUPA-ATQA: 04 00 
+[Ps] [RF14443A]ANTICOLISION-UID: 34 5d 80 c4 2d 
+[Ps] [RF14443A]SELECT-SAK: 08 
+
+-->[Ps] [Mifare]authblock: 60, 08, BD, F7
+<--[Ps] [Mifare]authblock recv: C4, A2, 3B, E3  <--  tag fixed nonce: 0x20231202
+-->[Ps] [Mifare]NrAr: 87 B3 5E 4E 92 69 63 7F  <-- reader fixed nonce: 0x01020304 
+<--[Ps] [Mifare]At: D5 07 BC 93 
+
+[Ps] [Mifare]Read Block Command: 30 08 4A 24 
+-->[Ps] [Mifare]Read Block Command enc: 8F 48 EA 46 
+
+<--[Ps] [Mifare]Read Block Recv: 83 D4 97 A6 90 9F 0E 88 00 2E 21 8B B3 56 2E 35 B5 89 
+[Ps] [Mifare]Read Block Recv Dec: 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 95 C3 
+[Ps] [Mifare]Read Block crc ok... 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+PN532Killer(Emulator--Mifare1, KeyA FFFFFFFFFFFF)
+[Ps] [RF14443A]WUPA-ATQA: 04 00 
+[Ps] [RF14443A]ANTICOLISION-UID: 34 5d 80 c4 2d 
+[Ps] [RF14443A]SELECT-SAK: 08 
+
+-->[Ps] [Mifare]authblock: 60, 08, BD, F7
+	[Ps] [RF14443A]FDT Delay: 0
+<--[Ps] [Mifare]authblock recv: C4, A2, 3B, E3  <--  tag fixed nonce: 0x20231202
+
+-->[Ps] [Mifare]NrAr: 83 3F 79 75 EA 79 7B F6  <-- reader fixed nonce: 0x05060708 
+	[Ps] [RF14443A]FDT Delay: 0
+<--[Ps] [Mifare]At: 42 23 7B 8F 
+
+[Ps] [Mifare]Read Block Command: 30 08 4A 24 
+-->[Ps] [Mifare]Read Block Command enc: FB 28 51 AF 
+	[Ps] [RF14443A]FDT Delay: 3
+<--[Ps] [Mifare]Read Block Recv: 57 B9 07 9E 7F D7 8A 3E 72 8B 23 7B A0 36 25 43 FA F4 
+[Ps] [Mifare]Read Block Recv Dec: 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 95 C3 
+[Ps] [Mifare]Read Block crc ok... 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Mifare1 Card( KeyA FFFFFFFFFFFF)
+[Ps] [RF14443A]WUPA-ATQA: 04 00 
+[Ps] [RF14443A]ANTICOLISION-UID: ea 09 95 18 6e 
+[Ps] [RF14443A]SELECT-SAK: 08 
+
+-->[Ps] [Mifare]authblock: 60, 08, BD, F7
+	[Ps] [RF14443A]FDT Delay: 6
+<--[Ps] [Mifare]authblock recv: 46, 8A, CD, 35
+
+-->[Ps] [Mifare]NrAr: F5 73 68 38 F5 9A 05 0A  <-- reader fixed nonce: 0x05060708 
+	[Ps] [RF14443A]FDT Delay: 0
+<--[Ps] [Mifare]At: BD 5F 24 3B 
+
+[Ps] [Mifare]Read Block Command: 30 08 4A 24 
+-->[Ps] [Mifare]Read Block Command enc: 1D 62 37 0B 
+	[Ps] [RF14443A]FDT Delay: 1
+<--[Ps] [Mifare]Read Block Recv: 7E B3 CA 4C C2 F8 11 A2 7D B9 61 84 41 48 E9 F2 C4 89 
+[Ps] [Mifare]Read Block Recv Dec: 22 33 44 55 66 77 88 99 AA BB CC DD EE FF 00 11 73 E9 
+[Ps] [Mifare]Read Block crc ok... 
